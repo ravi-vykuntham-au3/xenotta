@@ -6,7 +6,7 @@ function Colocation() {
     <div className="colocation-main">
       <div className="banner">
         <div className="banner-img">
-          <div className="banner-overlay"></div>
+          <div className="banner-overlay-1"></div>
           <div className="banner-text">
             Build your{" "}
             <span className="banner-dark">
