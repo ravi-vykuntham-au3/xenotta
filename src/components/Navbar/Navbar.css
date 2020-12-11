@@ -1,0 +1,40 @@
+#navbar {
+  display: flex;
+  background: #cee8f3;
+  position: sticky;
+  top: -2;
+  justify-content: space-between;
+  z-index: 1;
+  padding: 1rem;
+}
+
+#navbar .logo {
+  margin-left: 43px;
+}
+
+#navbar ul {
+  display: flex;
+
+  align-items: center;
+  list-style: none;
+}
+
+#navbar ul .link {
+  color: black;
+  padding: 0.75rem;
+  margin: 0 0.25rem;
+}
+
+.button {
+  display: block;
+  width: 130px;
+  height: 40px;
+  margin-left: 71px;
+  background: #e04e47;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  line-height: 25px;
+}

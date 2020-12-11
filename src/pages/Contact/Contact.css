@@ -1,0 +1,39 @@
+.contact-main {
+  height: 550px;
+  display: flex;
+  margin-top: 60px;
+}
+
+.contact-form {
+  height: 600px;
+  flex-grow: 1;
+}
+
+.contact-img {
+  background: url("../../assets/images/contact\ illustration.png") no-repeat;
+  height: 480px;
+  width: 580px;
+  flex-grow: 1;
+  margin-left: 741px;
+}
+
+.contact-footer {
+  height: 102px;
+  display: flex;
+}
+
+.contact-address-icon {
+  background: url("../../assets/images/Group\ 259.png");
+  height: 48px;
+  width: 48px;
+}
+.contact-mail-icon {
+  background: url("../../assets/images/Group\ 259.png");
+  height: 48px;
+  width: 48px;
+}
+.contact-number-icon {
+  background: url("../../assets/images/Group\ 259.png");
+  height: 48px;
+  width: 48px;
+}

@@ -1,0 +1,133 @@
+.herocarousel {
+  height: 526px;
+  width: auto;
+  position: relative;
+}
+
+.img1 {
+  background: url("../../assets/images/background.gif") no-repeat;
+  height: 526px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  overflow: hidden;
+}
+
+.img2 {
+  background: url("../../assets/images/slider2.png") no-repeat;
+  height: 526px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.owl-carousel {
+  position: relative;
+  cursor: pointer;
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 25%;
+  right: 25%;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 14px;
+  height: 8px;
+  background: #ceebf8;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span::after {
+  width: 50px;
+  height: 8px;
+  background: #56acd0;
+}
+/* custom */
+
+/* .overlay {
+  position: absolute;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 20%;
+  background: rgba(95, 186, 224, 0.5);
+}
+
+.content {
+  position: absolute;
+  font-size: 100px;
+  margin: 0px;
+} */
+
+.img2 {
+  background: url("../../assets/images/slider2.png") no-repeat;
+  height: 526px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.overlay-2 {
+  background: #5fbae0;
+  position: absolute;
+  height: 526px;
+  top: 0;
+  margin-left: 472px;
+  width: 65%;
+  opacity: 50%;
+}
+
+.overlay-content-2 {
+  width: 708px;
+  height: 252px;
+  position: absolute;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: right;
+  margin-left: 550px;
+  margin-top: 140px;
+  color: white;
+}
+
+.getstarted {
+  position: absolute;
+  background: url("../../assets/images/getstarted.png") no-repeat;
+  height: 83px;
+  width: 169px;
+  margin-top: 355px;
+  margin-left: 600px;
+}
+
+.overlay-1 {
+  background: #5fbae0;
+  position: absolute;
+  height: 526px;
+  top: 0;
+  width: 100%;
+  opacity: 50%;
+}
+
+.overlay-content-1 {
+  width: 919px;
+  height: 177px;
+  position: absolute;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 38px;
+  line-height: 60px;
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 150px;
+  color: white;
+}

@@ -1,0 +1,164 @@
+.wrapper {
+  padding-top: 70px;
+  position: relative;
+  height: 328px;
+}
+.footer-main {
+  margin-top: auto;
+  height: 248px;
+}
+
+#footer {
+  height: 210px;
+  background: #abc6d1;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+}
+
+hr {
+  border-color: white;
+  height: 1px;
+}
+
+.sub-footer {
+  margin-top: -15px;
+  height: 50px;
+  background: #abc6d1;
+}
+
+.label {
+  height: 121px;
+  width: 790px;
+  background: #8dadbb;
+  border-radius: 8px;
+  left: 250px;
+  z-index: 1;
+  box-shadow: 1px 1px 4px rgba(218, 218, 218, 0.25);
+  position: absolute;
+}
+
+.t1 {
+  width: 417px;
+  margin-left: 47px;
+  margin-top: 25px;
+
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.contact-button {
+  background: #ffffff;
+  width: 175px;
+  height: 43px;
+  border-radius: 40px;
+  position: absolute;
+  margin-left: 559px;
+  margin-top: -58px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.copyright {
+  margin-left: 60px;
+  padding-top: 10px;
+  color: #ffffff;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 10.41px;
+  line-height: 15.61px;
+}
+
+.footer-logo {
+  background: url("../../assets/images/logo.svg") no-repeat;
+  height: 49px;
+  width: 84px;
+  margin-left: 67px;
+  margin-top: 73px;
+}
+
+.solution-list {
+  margin-top: 73px;
+  margin-left: 140px;
+}
+
+.colocation-list {
+  margin-top: 73px;
+  margin-left: 150px;
+}
+
+.contact-list {
+  margin-top: 73px;
+  margin-left: 120px;
+}
+
+.globe-illustration {
+  margin-left: 120px;
+  flex: 1;
+  margin-top: 53px;
+  margin-left: 225px;
+  background: url("../../assets/images/footer-globe.png") no-repeat;
+}
+
+#footer ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+.head {
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 20px;
+  color: #ffffff;
+  margin-left: 10px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.colocation-item {
+  margin-top: 12px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.solutions-item {
+  margin-top: 12px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.contact-item {
+  margin-top: 12px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14.06px;
+}
+
+.footer-left-bottom {
+  position: absolute;
+  background: url("../../assets/images/Group\ 83.png") no-repeat;
+  height: 139px;
+  width: 179px;
+  margin-top: -30px;
+}
+
+.footer-right-bottom {
+  position: absolute;
+  background: url("../../assets/images/Group\ 84.png") no-repeat;
+  height: 139px;
+  width: 145px;
+  margin-left: 1200px;
+  margin-top: -30px;
+}
