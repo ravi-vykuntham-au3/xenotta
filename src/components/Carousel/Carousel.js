@@ -16,6 +16,8 @@ function Carousel() {
     dots: true,
     autoplayHoverPause: true,
     dotsEach: true,
+    dotsSpeed: false,
+    navSpeed: false,
     dotData: true,
     margin: 100,
   };
@@ -24,21 +26,27 @@ function Carousel() {
     <div className="herocarousel">
       <OwlCarousel className="owl-theme" {...options}>
         <div className="img1">
-          <div className="overlay-1"></div>
-          <div className="overlay-content-1">
-            We are currently building a distributed network of 30 mission
-            critical Edge Co-Location Datacenters across Ireland and the UK
+          <div className="overlayy-1"></div>
+
+          <div className="overlayy-content-1">
+            Ireland’s largest Modular Datacenter Provider delivering over 90
+            MWatt capacity across Europe
           </div>
-          <div className="getstarted"></div>
+          {/* <div className="getstarted"></div> */}
         </div>
 
         <div className="img2">
-          <div className="overlay-2"></div>
-          <div className="overlay-content-2">
+          <div className="overlayy-2"></div>
+          {/* <div className="overlayy-22"></div> */}
+          <div className="overlayy-content-2">
             We are currently building a distributed network of 30 mission
-            critical Edge Co-Location Datacenters across Ireland and the UK
+            critical &nbsp;
+            <span className="overlayy-content-2-dark">
+              Edge Co-Location Datacenters
+            </span>
+            &nbsp; across Ireland and the UK
           </div>
-          <div className="getstarted"></div>
+          {/* <div className="getstarted"></div> */}
         </div>
       </OwlCarousel>
     </div>

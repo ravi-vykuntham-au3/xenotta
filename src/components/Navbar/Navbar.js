@@ -14,18 +14,21 @@ function Navbar() {
           <NavLink className="link" activeClassName="active" exact to="/">
             Home
           </NavLink>
-          <NavLink className="link" activeClassName="active" exact to="/">
-            Solutions
-          </NavLink>
+
           <NavLink
             className="link"
             activeClassName="active"
             exact
             to="/colocation"
           >
-            CoLocation
+            Colocation
           </NavLink>
-          <NavLink className="link" activeClassName="active" exact to="/">
+          <NavLink
+            className="link"
+            activeClassName="active"
+            exact
+            to="/contact"
+          >
             Contact
           </NavLink>
 

@@ -8,11 +8,11 @@ function Colocation() {
         <div className="banner-img">
           <div className="banner-overlay-1"></div>
           <div className="banner-text">
-            Build your
+            Build your &nbsp;
             <span className="banner-dark">
               Edge, Disaster Recovery, Co-Location
             </span>
-            network on our secure distributed network of
+            &nbsp; network on our secure distributed network of
             <span className="banner-dark"> Modular Datacenters</span>
           </div>
         </div>

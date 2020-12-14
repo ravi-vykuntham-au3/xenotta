@@ -17,21 +17,25 @@ function Footer() {
         <div className="footer-main">
           <div id="footer">
             <div className="footer-logo"></div>
+            {/* <div className="social">
+              <div className="facebook"></div>
+              <div className="linkedin"></div>
+            </div> */}
             <div className="solution-list">
               <div className="head">Solutions</div>
               <ul>
                 <li className="solutions-item">
-                  <Link to="/" style={{color: "#FFF"}}>
+                  <Link to="/" style={{color: "#000"}}>
                     Co-Location
                   </Link>
                 </li>
                 <li className="solutions-item">
-                  <Link to="/" style={{color: "#FFF"}}>
+                  <Link to="/" style={{color: "#000"}}>
                     Power
                   </Link>
                 </li>
                 <li className="solutions-item">
-                  <Link to="/" style={{color: "#FFF"}}>
+                  <Link to="/" style={{color: "#000"}}>
                     Cooling
                   </Link>
                 </li>
@@ -41,7 +45,7 @@ function Footer() {
               <div className="head">Co-Locations</div>
               <ul>
                 <li className="colocation-item">
-                  <Link to="/" style={{color: "#FFF"}}>
+                  <Link to="/" style={{color: "#000"}}>
                     Pricing
                   </Link>
                 </li>
@@ -51,12 +55,12 @@ function Footer() {
               <div className="head">Contact Us</div>
               <ul>
                 <li className="contact-item">
-                  <Link to="/" style={{color: "#FFF"}}>
+                  <Link to="/" style={{color: "#000"}}>
                     info@xenotta.ie
                   </Link>
                 </li>
                 <li className="contact-item">
-                  <Link to="/" style={{color: "#FFF"}}>
+                  <Link to="/" style={{color: "#000"}}>
                     Tel: +353 87 2362175
                   </Link>
                 </li>

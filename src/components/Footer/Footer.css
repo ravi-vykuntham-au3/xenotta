@@ -10,7 +10,7 @@
 
 #footer {
   height: 210px;
-  background: #abc6d1;
+  background: #cee8f3;
   display: flex;
   flex-direction: row;
   margin-bottom: 16px;
@@ -24,7 +24,7 @@ hr {
 .sub-footer {
   margin-top: -15px;
   height: 50px;
-  background: #abc6d1;
+  background: #cee8f3;
 }
 
 .label {
@@ -64,7 +64,7 @@ hr {
 .copyright {
   margin-left: 60px;
   padding-top: 10px;
-  color: #ffffff;
+  color: #000;
   font-weight: 600;
   font-style: normal;
   font-size: 10.41px;
@@ -113,7 +113,7 @@ hr {
   font-size: 14px;
   line-height: 21px;
   margin-left: 20px;
-  color: #ffffff;
+  color: #000;
   margin-left: 10px;
   text-decoration: underline;
   text-underline-position: under;

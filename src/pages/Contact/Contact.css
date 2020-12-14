@@ -1,7 +1,7 @@
 .contact-main {
-  height: 550px;
+  height: 500px;
   display: flex;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .contact-form {
@@ -14,26 +14,129 @@
   height: 480px;
   width: 580px;
   flex-grow: 1;
-  margin-left: 741px;
+  margin-left: 290px;
 }
 
 .contact-footer {
-  height: 102px;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.contact-address {
+  margin-left: 25px;
+  display: flex;
+}
+.contact-mail {
+  margin-left: 15px;
+  display: flex;
+}
+.contact-number {
+  margin-left: 15px;
   display: flex;
 }
 
 .contact-address-icon {
-  background: url("../../assets/images/Group\ 259.png");
+  background: url("../../assets/images/location-icon.png");
   height: 48px;
   width: 48px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
 }
 .contact-mail-icon {
-  background: url("../../assets/images/Group\ 259.png");
+  background: url("../../assets/images/location-icon.png");
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
   height: 48px;
   width: 48px;
 }
 .contact-number-icon {
-  background: url("../../assets/images/Group\ 259.png");
+  background: url("../../assets/images/location-icon.png");
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 10px;
   height: 48px;
   width: 48px;
+}
+
+.contact-form {
+  height: 400px;
+  width: 380px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.input {
+  width: 330px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 15px;
+  border: 1px solid #828282;
+}
+
+.inputTextArea {
+  height: 110px;
+  width: 330px;
+  border: 1px solid #828282;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.form-submit {
+  width: 130px;
+  height: 40px;
+  background: #e04e47;
+  border: 1px solid #e04e47;
+  border-radius: 5px;
+  color: white;
+  margin-left: 120px;
+}
+
+.input::placeholder {
+  padding: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 21px;
+}
+
+.inputTextArea::placeholder {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 21px;
+  color: #828282;
+}
+
+.contact-heading {
+  height: 36px;
+  width: 134px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* margin-top: 10px; */
+  color: #000000;
+  margin-left: 20px;
+}
+
+.contact-heading-background {
+  background: url("../../assets/images/contact-us-background.png") no-repeat;
+  width: 202px;
+  height: 54px;
+  position: absolute;
+}
+
+.contact-text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333333;
+  margin: auto;
 }
